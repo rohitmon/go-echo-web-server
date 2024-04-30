@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/echowebserver/cmd/api/service"
 	"github.com/labstack/echo/v4"
+	"github.com/rohitmon/go-echo-web-server/cmd/api/service"
 )
 
 func PostIndexHandler(c echo.Context) error {

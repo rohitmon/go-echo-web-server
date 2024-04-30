@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/echowebserver/cmd/api/handlers"
 	"github.com/labstack/echo/v4"
+	"github.com/rohitmon/go-echo-web-server/cmd/api/handlers"
 )
 
 func main() {
