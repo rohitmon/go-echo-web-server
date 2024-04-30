@@ -27,5 +27,5 @@ func (s *EndtoEndSuite) TestPostHandlerNoResult() {
 	r, _ := c.Get("http://localhost:1323/posts/5678")
 	s.Equal(http.StatusOK, r.StatusCode)
 	b, _ := ioutil.ReadAll(r.Body)
-	s.JSONEq(`{"status": "OK", "data": []`, string(b))
+	s.JSONEq(`{"status": 200, "data": []}`, string(b))
 }
